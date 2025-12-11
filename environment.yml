@@ -1,0 +1,20 @@
+name: vabcp_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - r-base=4.3
+  - r-tidyverse
+  - r-caret
+  - r-ggplot2
+  - r-pROC
+  - r-randomforest
+  - r-e1071
+  - r-ranger
+  - r-ggcorrplot
+  - r-ggally
+  - r-xgboost
+  - pip
+  - pip:
+      - tensorflow==2.15.0
+      - keras==2.15.0
